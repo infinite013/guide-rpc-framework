@@ -179,8 +179,8 @@ public class HelloController {
     }
 }
 ```
-
-```java
+```
+java
 ClientTransport rpcRequestTransport = new SocketRpcClient();
 RpcServiceProperties rpcServiceProperties = RpcServiceProperties.builder()
         .group("test2").version("version2").build();
